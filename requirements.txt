@@ -1,0 +1,21 @@
+gunicorn
+Flask
+# Web Framework (Choose one)
+django  # If using Django
+flask  # If using Flask
+
+# WSGI Server
+gunicorn
+
+# Common Dependencies
+requests
+psycopg2-binary  # If using PostgreSQL
+mysqlclient  # If using MySQL
+
+# Environment Management
+python-dotenv  # For .env file support
+
+# Optional (Add if needed)
+djangorestframework  # If using Django REST Framework
+pillow  # If handling images in Django
+whitenoise  # For serving static files in Django
